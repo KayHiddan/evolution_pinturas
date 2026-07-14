@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+* {
+    font-family: "Inter", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff9ea;
+}
+
+.btn_default {
+    background-color: var(--bronze-gold);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--white);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition:
+        background-color 0.2s ease,
+        box-shadow 0.2s ease;
+}
+
+.btn_default:hover {
+    background-color: var(--bronze-gold-hover);
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.1);
+}
