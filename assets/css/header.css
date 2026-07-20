@@ -28,24 +28,31 @@ body {
 }
 
 .nav_logo_text {
-    display: fit-content;
+    display: flex;
     flex-direction: column;
+    justify-content: center;
+    gap: 3px;
     color: var(--graphite-gray);
 }
 
 #nav_logo h1 {
     font-family: "Playfair Display", serif;
-    font-size: 28px;
+    font-size: 32px;
     font-weight: 900;
     margin: 0;
+    line-height: 1;
+    letter-spacing: 0.32em;
+    display: inline-block;
 }
 
-#nav_logo span {
+.nav_logo_subtitle {
     font-family: "Inter", serif;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 800;
     color: var(--bronze-gold);
     margin: 0;
+    line-height: 1;
+    display: inline-block;
 }
 
 #nav_bar {
@@ -95,5 +102,24 @@ body {
         border: none;
         cursor: pointer;
         font-size: 1.5rem;
+    }
+
+    #mobile_menu.active {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #mobile_nav_list {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        margin: 12px 0;
+        list-style: none;
+    }
+
+    #mobile_nav_list .mobile_nav_item a {
+        text-decoration: none;
+        text-align: center;
     }
 }
