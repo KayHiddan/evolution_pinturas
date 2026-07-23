@@ -1,14 +1,7 @@
-:root {
-    --bronze-gold: #b17c20;
-    --bronze-gold-hover: #bf8926;
-    --graphite-gray: #041e39;
-    --white: #ffffff;
-    --white-smoke: #f5f5f5;
-}
-
 header {
     width: 100%;
-    padding: 15px 5%;
+    padding: 7px 5%;
+    background-color: whitesmoke;
 }
 
 body {
@@ -22,7 +15,7 @@ body {
 }
 
 .nav_logo_icon {
-    width: 70px;
+    width: 60px;
     height: auto;
     display: block;
 }
@@ -37,7 +30,7 @@ body {
 
 #nav_logo h1 {
     font-family: "Playfair Display", serif;
-    font-size: 32px;
+    font-size: 30px;
     font-weight: 900;
     margin: 0;
     line-height: 1;

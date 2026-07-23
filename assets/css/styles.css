@@ -8,8 +8,22 @@
     box-sizing: border-box;
 }
 
+:root {
+    --bronze-gold: #b17c20;
+    --bronze-gold-hover: #bf8926;
+    --graphite-gray: #04234b;
+    --graphite-gray-dark: #011229;
+    --white: #ffffff;
+    --white-smoke: #f5f5f5;
+    --header-height: 100px;
+}
+
 body {
     background-color: #fff9ea;
+}
+
+section {
+    padding: 0px 5%;
 }
 
 .btn_default {
@@ -20,9 +34,9 @@ body {
     color: var(--white);
     border: none;
     padding: 10px 20px;
-    border-radius: 5px;
+    border-radius: 8px;
     cursor: pointer;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 600;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     transition:
@@ -33,4 +47,29 @@ body {
 .btn_default:hover {
     background-color: var(--bronze-gold-hover);
     box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.1);
+    font-weight: 700;
+}
+
+.btn_default_transparent {
+    background-color: var(--white-smoke);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--graphite-gray);
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: 1px solid var(--graphite-gray);
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition:
+        background-color 0.2s ease,
+        box-shadow 0.2s ease;
+}
+
+.btn_default_transparent:hover {
+    background-color: var(--white-smoke);
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.1);
+    font-weight: 700;
 }

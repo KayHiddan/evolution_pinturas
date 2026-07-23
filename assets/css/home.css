@@ -1,0 +1,95 @@
+#content {
+    width: 100%;
+}
+
+#home {
+    position: relative;
+    min-height: calc(105vh - var(--header-height));
+    background-image: url("../img/hero_section_img.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+}
+
+#conteudo {
+    width: 40%;
+    height: 100%;
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 40px;
+}
+
+.cta {
+    font-family: "Playfair Display", serif;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.cta h1 {
+    color: var(--graphite-gray);
+}
+
+.cta span {
+    color: var(--bronze-gold);
+}
+
+.cta p {
+    color: var(--graphite-gray-dark);
+    font-family: "Inter", serif;
+    font-size: 16px;
+    font-weight: 500;
+    text-justify: inter-word;
+    line-height: 1.4;
+    margin-top: 30px;
+}
+
+#conteudo .cta_buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    gap: 20px;
+}
+
+#conteudo .cta_buttons .btn_default,
+#conteudo .cta_buttons .btn_default_transparent {
+    width: 100%;
+}
+
+.cta_buttons i {
+    margin-right: 10px;
+    font-size: 22px;
+}
+
+.icons {
+    display: flex;
+    gap: 18px;
+}
+
+.icon_item {
+    display: flex;
+    gap: 12px;
+}
+
+.icon_item i {
+    font-size: 32px;
+    color: var(--bronze-gold);
+}
+
+.icon_text {
+    display: flex;
+    flex-direction: column;
+}
+
+.icon_text span {
+    font-size: 14px;
+}
+
+.icon_text strong {
+    font-size: 16px;
+    color: var(--graphite-gray-dark);
+}
