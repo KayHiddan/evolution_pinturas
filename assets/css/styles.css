@@ -47,7 +47,7 @@ section {
 .btn_default:hover {
     background-color: var(--bronze-gold-hover);
     box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.1);
-    font-weight: 700;
+    font-weight: 600;
 }
 
 .btn_default_transparent {
@@ -61,7 +61,7 @@ section {
     border: 1px solid var(--graphite-gray);
     cursor: pointer;
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 650;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     transition:
         background-color 0.2s ease,
@@ -71,5 +71,5 @@ section {
 .btn_default_transparent:hover {
     background-color: var(--white-smoke);
     box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.1);
-    font-weight: 700;
+    font-weight: 650;
 }

@@ -20,12 +20,12 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    gap: 40px;
+    gap: 2.5rem;
 }
 
 .cta {
     font-family: "Playfair Display", serif;
-    font-size: 18px;
+    font-size: 1.2rem;
     font-weight: 900;
 }
 
@@ -40,11 +40,11 @@
 .cta p {
     color: var(--graphite-gray-dark);
     font-family: "Inter", serif;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 500;
     text-justify: inter-word;
     line-height: 1.4;
-    margin-top: 30px;
+    margin-top: 1.8rem;
 }
 
 #conteudo .cta_buttons {
@@ -52,7 +52,7 @@
     flex-direction: row;
     justify-content: space-around;
     width: 100%;
-    gap: 20px;
+    gap: 1.2rem;
 }
 
 #conteudo .cta_buttons .btn_default,
@@ -62,21 +62,21 @@
 
 .cta_buttons i {
     margin-right: 10px;
-    font-size: 22px;
+    font-size: 1.3rem;
 }
 
 .icons {
     display: flex;
-    gap: 18px;
+    gap: 1rem;
 }
 
 .icon_item {
     display: flex;
-    gap: 12px;
+    gap: 0.8rem;
 }
 
 .icon_item i {
-    font-size: 32px;
+    font-size: 2rem;
     color: var(--bronze-gold);
 }
 
@@ -86,10 +86,10 @@
 }
 
 .icon_text span {
-    font-size: 14px;
+    font-size: 1rem;
 }
 
 .icon_text strong {
-    font-size: 16px;
+    font-size: 1rem;
     color: var(--graphite-gray-dark);
 }
