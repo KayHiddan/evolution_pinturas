@@ -26,6 +26,33 @@ section {
     padding: 0px 5%;
 }
 
+.section_divider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section_divider::before,
+.section_divider::after {
+    content: "";
+    width: 1rem;
+    height: 2px;
+    background: var(--bronze-gold);
+}
+
+.section_divider::before {
+    margin-right: 0.5rem;
+}
+
+.section_divider::after {
+    margin-left: 0.5rem;
+}
+
+.section-divider i {
+    color: var(--bronze-gold);
+    font-size: 1rem;
+}
+
 .btn_default {
     background-color: var(--bronze-gold);
     display: flex;

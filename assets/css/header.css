@@ -24,6 +24,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    text-align: center;
     gap: 3px;
     color: var(--graphite-gray);
 }
@@ -32,6 +33,7 @@ body {
     font-family: "Playfair Display", serif;
     font-size: 30px;
     font-weight: 900;
+    text-align: right;
     margin: 0;
     line-height: 1;
     letter-spacing: 0.32em;

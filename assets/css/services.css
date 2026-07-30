@@ -1,0 +1,15 @@
+#sevices {
+    margin: 0;
+}
+
+.fa-user-doctor {
+    position: absolute;
+    font-size: 50px;
+    color: var(--white-smoke);
+}
+
+.doctor {
+    background-color: var(--graphite-gray-dark);
+    width: 60px;
+    height: 60px;
+}
