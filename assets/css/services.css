@@ -1,15 +1,74 @@
-#sevices {
-    margin: 0;
+#services {
+    margin-top: 0.8rem;
 }
 
-.fa-user-doctor {
-    position: absolute;
-    font-size: 50px;
-    color: var(--white-smoke);
+#container_articles {
+    display: flex;
+    gap: 1.2rem;
+    margin-bottom: 2rem;
+
+    display: flex;
+    justify-content: space-evenly;
 }
 
-.doctor {
-    background-color: var(--graphite-gray-dark);
-    width: 60px;
-    height: 60px;
+.content_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+
+    margin-bottom: 2rem;
+}
+
+.gray_title {
+    color: var(--graphite-gray);
+    font-size: 1.8rem;
+    font-weight: 800;
+}
+
+.gray_dark_sub_title {
+    color: var(--graphite-gray-dark);
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.service_card {
+    width: 15rem;
+    padding: 1rem;
+    background-color: #f8f9f8;
+    border-radius: 1.5rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.service_card h1 {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+.service_card span {
+    font-size: 1rem;
+}
+
+.service_icon {
+    background-color: #d8e6e6;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 1rem;
+}
+
+.service_icon i {
+    color: #1e8482;
+    font-size: 2.5rem;
 }
