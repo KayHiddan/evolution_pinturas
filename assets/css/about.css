@@ -1,0 +1,24 @@
+#about {
+    display: flex;
+    min-height: 100vh;
+}
+
+.about_image img {
+    width: 100%;
+    height: auto;
+    flex: 1.2;
+}
+
+.about_container {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 0 3rem;
+}
+
+.content_subtitle {
+    color: var(--blue-baby);
+    font-weight: 800;
+}
+
+
