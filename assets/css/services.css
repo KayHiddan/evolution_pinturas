@@ -1,17 +1,9 @@
 #services {
     min-height: 100vh;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-#container_articles {
-    display: flex;
-    gap: 1.2rem;
-    margin-bottom: 3rem;
-
-    display: flex;
-    justify-content: space-evenly;
 }
 
 .content {
@@ -37,8 +29,19 @@
     font-weight: 500;
 }
 
+.swiper_container {
+    width: 100%;
+    max-width: 1020px;
+    padding: 0 1rem;
+}
+
+.swiper-slide {
+    margin-bottom: 5rem;
+}
+
 .service_card {
-    width: 15rem;
+    height: 300px;
+    width: 100%;
     padding: 1rem 2rem;
     background-color: #f8f9f8;
     border-radius: 1.5rem;
