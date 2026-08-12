@@ -1,15 +1,13 @@
 #home {
-    position: relative;
-    background-image: url("../img/hero_section_img.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
     display: flex;
+    width: 100%;
+    min-height: calc(100vh - var(--header-height));
+    overflow: hidden;
 }
 
-#conteudo {
+.conteudo {
     margin-top: 50px;
-    width: 40%;
+    width: 60%;
     height: 100%;
 
     display: flex;
@@ -26,6 +24,17 @@
     display: flex;
     flex-direction: column;
     gap: 1.6rem;
+}
+
+.cta_image {
+    height: calc(100vh - var(--header-height));
+    margin-top: 25px;
+    width: 100%;
+    padding-left: 1rem;
+    object-fit: cover;
+    display: block;
+    transform: scaleY(1.1);
+    transform-origin: center;
 }
 
 .cta h1 {
@@ -45,7 +54,7 @@
     line-height: 1.6;
 }
 
-#conteudo .cta_buttons {
+.conteudo .cta_buttons {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -53,8 +62,8 @@
     gap: 1.2rem;
 }
 
-#conteudo .cta_buttons .btn_default,
-#conteudo .cta_buttons .btn_default_transparent {
+.conteudo .cta_buttons .btn_default,
+.conteudo .cta_buttons .btn_default_transparent {
     width: 100%;
 }
 
@@ -96,13 +105,16 @@
     #home {
         width: 100%;
         min-height: calc(100vh - var(--header-height));
-        background-image: none;
         display: flex;
         justify-content: center;
         align-items: center;
     }
 
-    #conteudo {
+    .cta_image {
+        display: none;
+    }
+
+    .conteudo {
         width: 90%;
         margin-top: 0;
         display: flex;
@@ -110,7 +122,7 @@
         align-items: center;
     }
 
-    #conteudo .cta {
+    .conteudo .cta {
         display: flex;
         flex-direction: column;
         align-items: center;
