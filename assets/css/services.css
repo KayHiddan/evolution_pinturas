@@ -1,6 +1,6 @@
 #services {
     width: 100%;
-    height: auto;
+    min-height: calc(100vh - var(--header-height));
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -18,9 +18,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 1rem;
-
-    margin: 2rem;
+    gap: 0.5rem;
+    margin: 1rem;
 }
 
 .gray_dark_sub_title {
@@ -32,11 +31,11 @@
 .swiper_container {
     width: 100%;
     max-width: 1020px;
-    padding: 0 1rem;
+    padding: 0 0.5rem;
 }
 
 .swiper-slide {
-    margin-bottom: 5rem;
+    margin-bottom: 4rem;
 }
 
 .service_card {

@@ -9,7 +9,13 @@ const swiper = new Swiper('.swiper_container', {
   direction: 'horizontal',
   spaceBetween:24,
   loop: false,
+
   grabCursor:true,
+  speed:900,
+  autoplay: {
+
+    disableOnInteraction: false,
+  },
 
   pagination: {
     el: '.swiper-pagination',

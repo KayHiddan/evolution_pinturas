@@ -23,8 +23,17 @@ body {
     background-color: #fff9ea;
 }
 
+#content {
+    padding-top: var(--header-height);
+}
+#home,
+#services,
+#about {
+    scroll-margin-top: var(--header-height);
+}
+
 section {
-    padding: 0px 5%;
+    padding: 0px 3%;
 }
 
 .gray_title {

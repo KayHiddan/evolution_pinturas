@@ -3,13 +3,14 @@
     width: 100%;
     min-height: calc(100vh - var(--header-height));
     overflow: hidden;
+    align-items: center;
+    gap: 2rem;
 }
 
 .conteudo {
-    margin-top: 50px;
-    width: 60%;
+    margin-top: 2rem;
+    width: 100%;
     height: 100%;
-
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -27,10 +28,9 @@
 }
 
 .cta_image {
-    height: calc(100vh - var(--header-height));
-    margin-top: 25px;
+    margin-top: 1.375rem;
+    padding-bottom: 1.25rem;
     width: 100%;
-    padding-left: 1rem;
     object-fit: cover;
     display: block;
     transform: scaleY(1.1);

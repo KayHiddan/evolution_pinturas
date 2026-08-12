@@ -1,6 +1,6 @@
 #about {
     display: flex;
-    min-height: 100vh;
+    min-height: calc(100vh - var(--header-height));
     padding-top: 4rem;
 }
 
@@ -17,10 +17,18 @@
     padding: 0 2rem;
 }
 
-.about_container p {
+.about_content p {
     font-size: 1rem;
-    text-align: justify;
+    font-weight: 500;
     padding-bottom: 0.8rem;
+    text-align: justify;
+    line-height: 1.6;
+}
+
+.about_content strong {
+    color: var(--bronze-gold);
+    font-weight: 800;
+    font-size: 1.1rem;
 }
 
 .about_container button {
@@ -36,6 +44,10 @@
 
 .stamps {
     display: flex;
+}
+
+.stamps span {
+    font-weight: 500;
 }
 
 .about_features i {
