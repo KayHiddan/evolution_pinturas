@@ -1,0 +1,69 @@
+#footer_container {
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+    background-color: var(--bronze-gold);
+}
+
+.nav_logo_text_footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 3px;
+}
+
+#footer_container #nav_logo h1 {
+    font-family: "Playfair Display", serif;
+    font-size: 30px;
+    font-weight: 900;
+    color: whitesmoke;
+    text-align: right;
+    margin: 0;
+    line-height: 1;
+    letter-spacing: 0.32em;
+    display: inline-block;
+}
+
+.nav_logo_subtitle_footer {
+    font-family: "Inter", serif;
+    font-size: 15px;
+    font-weight: 800;
+    color: whiteSmoke;
+    margin: 0;
+    line-height: 1;
+    display: inline-block;
+}
+
+.footer_item {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.footer_subtitle {
+    color: whitesmoke;
+}
+
+.footer_list {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+
+    gap: 15px;
+    margin-top: 10px;
+    color: whitesmoke;
+}
+
+.list_item span {
+    padding-left: 10px;
+}
+
+.social_midia_buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.social_midia_buttons i {
+    color: whitesmoke;
+    font-size: 1.5rem;
+}
