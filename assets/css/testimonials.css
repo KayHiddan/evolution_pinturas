@@ -1,0 +1,23 @@
+#testimonials h1 {
+    text-align: center;
+}
+
+#testimonials {
+    margin-bottom: 2rem;
+}
+
+#testimonials .section_divider {
+    margin: 1.25rem;
+}
+.testimonials_card {
+    border: 2px solid #d1d5db;
+    border-radius: 1rem;
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+}
+
+.testimonials_stars {
+    color: #e9a209;
+}
