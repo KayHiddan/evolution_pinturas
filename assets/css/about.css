@@ -1,7 +1,7 @@
 #about {
     display: flex;
     min-height: calc(100vh - var(--header-height));
-    padding-top: 4rem;
+    padding-top: 3rem;
 }
 
 .about_image img {
