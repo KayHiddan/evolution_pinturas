@@ -26,9 +26,11 @@ body {
 #content {
     padding-top: var(--header-height);
 }
+
 #home,
 #services,
-#about {
+#about,
+#testimonials {
     scroll-margin-top: var(--header-height);
 }
 

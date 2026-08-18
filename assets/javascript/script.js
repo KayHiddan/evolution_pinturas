@@ -6,13 +6,13 @@ $(document).ready(() => {
       });
 
     const section = $('section');
-    const navItems = $('nav_item');
+    const navItems = $('.nav_item');
 
     $(window).on('scroll', function () {
       const header = $('header')
-      const scrollposition = $(window).scrolltop() - header.outerheight();
-
-      let activeSectionIndex = 0;
+      const scrollposition = $(window).scrollTop() - header.outerHeight();
+      
+      let activeSectionIndex = 0; 
 
       if(scrollposition <= 0 ){
         header.css('box-shadow', 'none');
@@ -22,15 +22,42 @@ $(document).ready(() => {
 
       section.each(function(i){
         const section = $(this); 
-        const sectionTop = section.offset().top - 74
-        const sectionBottom = sectionTop + section.outerheight();
+        const sectionTop = section.offset().top - 150
+        const sectionBottom = sectionTop + section.outerHeight();
 
-        if (scrollposition >= sectionTop && scrollposition + sectionBottom){
+        if (scrollposition >= sectionTop && scrollposition < sectionBottom){
           activeSectionIndex = i;
-          return false
+          return false;
         }
       })
+
+      navItems.removeClass('active')
+      $(navItems [activeSectionIndex]).addClass('active');
     });
+
+    ScrollReveal().reveal('.conteudo', {
+      origin: 'left',
+      duration:2000,
+      distance: '20%'
+    })
+
+    ScrollReveal().reveal('.content', {
+      origin: 'left',
+      duration:2000,
+      distance: '20%'
+    })
+
+     ScrollReveal().reveal('.about_content', {
+      origin: 'left',
+      duration:2000,
+      distance: '20%'
+    })
+
+    ScrollReveal().reveal('.testimonials_title', {
+      origin: 'left',
+      duration:2000,
+      distance: '20%'
+    })
 
 });
 
@@ -67,3 +94,4 @@ const swiper = new Swiper('.swiper_container', {
     }
   }
 });
+

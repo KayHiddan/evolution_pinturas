@@ -1,6 +1,7 @@
 #footer_container {
     display: flex;
     justify-content: space-around;
+    
     padding: 1rem;
     background-color: var(--bronze-gold);
 }

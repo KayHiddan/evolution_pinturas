@@ -1,13 +1,19 @@
 #about {
     display: flex;
     min-height: calc(100vh - var(--header-height));
-    padding-top: 3rem;
+    justify-content: center;
+    align-items: center;
+    padding-top: 4rem;
 }
 
 .about_image img {
     width: 100%;
     height: auto;
     border-radius: 1rem;
+    object-fit: cover;
+    display: block;
+    transform: scaleY(1.1);
+    transform-origin: top;
 }
 
 .about_container {

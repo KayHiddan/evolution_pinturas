@@ -1,14 +1,26 @@
-#testimonials h1 {
-    text-align: center;
+#testimonials {
+    min-height: calc(100vh - var(--header-height));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
-#testimonials {
-    margin-bottom: 3.5rem;
+#testimonials h1 {
+    text-align: center;
 }
 
 #testimonials .section_divider {
     margin: 1.25rem;
 }
+
+.testimonials_title {
+    color: var(--graphite-gray);
+    font-size: 2rem;
+    font-weight: 800;
+    display: block;
+}
+
 .testimonials_card {
     border: 2px solid #d1d5db;
     border-radius: 1rem;
