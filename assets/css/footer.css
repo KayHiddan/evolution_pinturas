@@ -1,7 +1,7 @@
 #footer_container {
     display: flex;
     justify-content: space-around;
-    
+
     padding: 1rem;
     background-color: var(--bronze-gold);
 }
@@ -39,6 +39,7 @@
 .footer_item {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     gap: 20px;
 }
 .footer_subtitle {
@@ -53,6 +54,11 @@
     gap: 15px;
     margin-top: 10px;
     color: whitesmoke;
+}
+
+.footer_list a {
+    color: whitesmoke;
+    text-decoration: none;
 }
 
 .list_item span {

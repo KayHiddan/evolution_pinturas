@@ -112,6 +112,11 @@ section {
         box-shadow 0.2s ease;
 }
 
+.btn_default a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
 .btn_default:hover {
     background-color: var(--bronze-gold-hover);
     box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.1);
@@ -134,6 +139,11 @@ section {
     transition:
         background-color 0.2s ease,
         box-shadow 0.2s ease;
+}
+
+.btn_default_transparent a {
+    text-decoration: none;
+    color: var(--blue-baby);
 }
 
 .btn_default_transparent:hover {

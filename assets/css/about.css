@@ -1,9 +1,9 @@
 #about {
     display: flex;
+    width: 100%;
     min-height: calc(100vh - var(--header-height));
     justify-content: center;
     align-items: center;
-    padding-top: 4rem;
 }
 
 .about_image img {
