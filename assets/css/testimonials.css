@@ -15,7 +15,7 @@
 }
 
 .testimonials_section {
-    width: 90%;
+    width: 100%;
 }
 
 .testimonials_title {
@@ -26,14 +26,23 @@
 }
 
 .testimonials_card {
+    width: 100%;
     border: 2px solid #d1d5db;
     border-radius: 1rem;
     padding: 1rem 2rem;
     display: flex;
     flex-direction: column;
     gap: 1.6rem;
+    height: 230px;
 }
 
 .testimonials_stars {
     color: #e9a209;
+}
+
+@media screen and (max-width: 1170px) {
+    #testimonials {
+        min-height: auto;
+        padding: 2rem 0;
+    }
 }

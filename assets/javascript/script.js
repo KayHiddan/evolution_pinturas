@@ -17,7 +17,7 @@ $(document).ready(() => {
       if(scrollposition <= 0 ){
         header.css('box-shadow', 'none');
       } else {
-        header.css('box-shadow', '5px 1px 7px rgba(0, 0, 0, 0.1');
+        header.css('box-shadow', '5px 1px 7px rgba(0, 0, 0, 0.1)');
       }
 
       section.each(function(i){

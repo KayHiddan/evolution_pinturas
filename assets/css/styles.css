@@ -19,6 +19,10 @@
     --header-height: 74px;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: #fff9ea;
 }

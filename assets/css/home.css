@@ -104,10 +104,11 @@
 @media screen and (max-width: 1170px) {
     #home {
         width: 100%;
-        min-height: calc(100vh - var(--header-height));
+        min-height: auto;
         display: flex;
         justify-content: center;
         align-items: center;
+        padding-top: 2rem;
     }
 
     .cta_image {

@@ -118,30 +118,10 @@ body {
         display: none;
     }
 
-    #mobile_menu_button {
-        display: block;
-        background-color: transparent;
-        border: none;
-        cursor: pointer;
-        font-size: 1.5rem;
-    }
-
-    #mobile_menu.active {
+    #nav_logo {
         display: flex;
-        flex-direction: column;
+        justify-content: space-around;
         align-items: center;
-    }
-
-    #mobile_nav_list {
-        display: flex;
-        flex-direction: column;
-        gap: 12px;
-        margin: 12px 0;
-        list-style: none;
-    }
-
-    #mobile_nav_list .mobile_nav_item a {
-        text-decoration: none;
-        text-align: center;
+        width: 100%;
     }
 }
