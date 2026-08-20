@@ -65,16 +65,6 @@
     padding-left: 10px;
 }
 
-.social_midia_buttons {
-    display: flex;
-    gap: 20px;
-}
-
-.social_midia_buttons i {
-    color: whitesmoke;
-    font-size: 1.5rem;
-}
-
 @media screen and (max-width: 600px) {
     .footer_contact {
         display: none;
@@ -86,9 +76,5 @@
         justify-content: center;
         align-items: center;
         padding-bottom: 1rem;
-    }
-
-    .social_midia_buttons {
-        display: none;
     }
 }
